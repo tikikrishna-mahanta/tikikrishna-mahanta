@@ -7,5 +7,5 @@
 </p>
 
 <p align="center">
-  <img src="./github-space-shooter.gif" alt="GitHub Space Shooter" width="100%">
+  <img src="https://githubusercontent.com" alt="GitHub Space Shooter" width="100%">
 </p>
