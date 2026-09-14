@@ -1,0 +1,1074 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1180"
+     height="610"
+     viewBox="0 0 1180 610">
+
+<defs>
+
+  <!-- ===================================================== -->
+  <!-- ACCENT -->
+  <!-- ===================================================== -->
+
+  <linearGradient id="accent"
+                  x1="0%" y1="0%"
+                  x2="100%" y2="100%">
+
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="50%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#10B981"/>
+
+    <animateTransform
+      attributeName="gradientTransform"
+      type="rotate"
+      from="0 590 305"
+      to="360 590 305"
+      dur="14s"
+      repeatCount="indefinite"/>
+
+  </linearGradient>
+
+
+  <linearGradient id="textAccent"
+                  x1="0%" y1="0%"
+                  x2="100%" y2="0%">
+
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="55%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#10B981"/>
+
+  </linearGradient>
+
+
+  <!-- ===================================================== -->
+  <!-- AURA -->
+  <!-- ===================================================== -->
+
+  <radialGradient id="cyanAura">
+
+    <stop offset="0%"
+          stop-color="#22D3EE"
+          stop-opacity=".12"/>
+
+    <stop offset="100%"
+          stop-color="#22D3EE"
+          stop-opacity="0"/>
+
+  </radialGradient>
+
+
+  <radialGradient id="violetAura">
+
+    <stop offset="0%"
+          stop-color="#7C3AED"
+          stop-opacity=".11"/>
+
+    <stop offset="100%"
+          stop-color="#7C3AED"
+          stop-opacity="0"/>
+
+  </radialGradient>
+
+
+  <!-- ===================================================== -->
+  <!-- GLOW -->
+  <!-- ===================================================== -->
+
+  <filter id="glow"
+          x="-100%"
+          y="-100%"
+          width="300%"
+          height="300%">
+
+    <feGaussianBlur stdDeviation="4"/>
+
+  </filter>
+
+
+  <!-- ===================================================== -->
+  <!-- FRAME -->
+  <!-- ===================================================== -->
+
+  <clipPath id="frame">
+
+    <rect width="1180"
+          height="610"
+          rx="26"/>
+
+  </clipPath>
+
+</defs>
+
+
+<g clip-path="url(#frame)">
+
+
+<!-- ======================================================= -->
+<!-- BACKGROUND -->
+<!-- ======================================================= -->
+
+<rect width="1180"
+      height="610"
+      fill="#030712"/>
+
+
+<!-- subtle grid -->
+
+<g stroke="#64748B"
+   stroke-width="1"
+   opacity=".045">
+
+  <path d="M40 0V610"/>
+  <path d="M100 0V610"/>
+  <path d="M160 0V610"/>
+  <path d="M220 0V610"/>
+  <path d="M280 0V610"/>
+  <path d="M340 0V610"/>
+  <path d="M400 0V610"/>
+  <path d="M460 0V610"/>
+  <path d="M520 0V610"/>
+  <path d="M580 0V610"/>
+  <path d="M640 0V610"/>
+  <path d="M700 0V610"/>
+  <path d="M760 0V610"/>
+  <path d="M820 0V610"/>
+  <path d="M880 0V610"/>
+  <path d="M940 0V610"/>
+  <path d="M1000 0V610"/>
+  <path d="M1060 0V610"/>
+  <path d="M1120 0V610"/>
+
+  <path d="M0 60H1180"/>
+  <path d="M0 120H1180"/>
+  <path d="M0 180H1180"/>
+  <path d="M0 240H1180"/>
+  <path d="M0 300H1180"/>
+  <path d="M0 360H1180"/>
+  <path d="M0 420H1180"/>
+  <path d="M0 480H1180"/>
+  <path d="M0 540H1180"/>
+
+</g>
+
+
+<!-- aura -->
+
+<circle cx="130"
+        cy="120"
+        r="320"
+        fill="url(#cyanAura)">
+
+  <animate attributeName="opacity"
+           values=".6;1;.6"
+           dur="7s"
+           repeatCount="indefinite"/>
+
+</circle>
+
+
+<circle cx="1060"
+        cy="500"
+        r="340"
+        fill="url(#violetAura)">
+
+  <animate attributeName="opacity"
+           values=".5;1;.5"
+           dur="9s"
+           repeatCount="indefinite"/>
+
+</circle>
+
+
+<!-- ======================================================= -->
+<!-- BORDER -->
+<!-- ======================================================= -->
+
+<rect x="2"
+      y="2"
+      width="1176"
+      height="606"
+      rx="26"
+      fill="none"
+      stroke="url(#accent)"
+      stroke-width="2"
+      opacity=".65"/>
+
+
+<!-- ======================================================= -->
+<!-- TOP SYSTEM HEADER -->
+<!-- ======================================================= -->
+
+<rect x="0"
+      y="0"
+      width="1180"
+      height="42"
+      fill="#020617"
+      fill-opacity=".85"/>
+
+
+<circle cx="22"
+        cy="21"
+        r="5"
+        fill="#EF4444"
+        opacity=".7"/>
+
+<circle cx="40"
+        cy="21"
+        r="5"
+        fill="#F59E0B"
+        opacity=".7"/>
+
+<circle cx="58"
+        cy="21"
+        r="5"
+        fill="#22C55E"
+        opacity=".7"/>
+
+
+<text x="82"
+      y="25"
+      font-family="monospace"
+      font-size="10"
+      fill="#64748B">
+
+  TIKIKRISHNA // ENGINEERING_INTERFACE
+
+</text>
+
+
+<text x="1050"
+      y="25"
+      font-family="monospace"
+      font-size="9"
+      fill="#475569">
+
+  ONLINE
+
+</text>
+
+
+<circle cx="1095"
+        cy="21"
+        r="4"
+        fill="#10B981"
+        filter="url(#glow)">
+
+  <animate attributeName="opacity"
+           values=".25;1;.25"
+           dur="2s"
+           repeatCount="indefinite"/>
+
+</circle>
+
+
+<!-- ======================================================= -->
+<!-- LEFT IDENTITY -->
+<!-- ======================================================= -->
+
+<text x="65"
+      y="88"
+      font-family="monospace"
+      font-size="10"
+      letter-spacing="3"
+      fill="#64748B">
+
+  PROFILE / 01
+
+</text>
+
+
+<text x="65"
+      y="132"
+      font-family="sans-serif"
+      font-size="32"
+      font-weight="700"
+      fill="#F8FAFC">
+
+  Tikikrishna Mahanta
+
+</text>
+
+
+<text x="65"
+      y="164"
+      font-family="monospace"
+      font-size="13"
+      fill="url(#textAccent)">
+
+  CSE  •  PYTHON  •  CLOUD  •  CYBERSECURITY
+
+</text>
+
+
+<line x1="65"
+      y1="187"
+      x2="420"
+      y2="187"
+      stroke="url(#accent)"
+      stroke-width="1"
+      opacity=".4"/>
+
+
+<!-- ======================================================= -->
+<!-- SHORT IDENTITY STATEMENT -->
+<!-- ======================================================= -->
+
+<text x="65"
+      y="225"
+      font-family="sans-serif"
+      font-size="18"
+      font-weight="600"
+      fill="#E2E8F0">
+
+  Engineering practical,
+
+</text>
+
+
+<text x="65"
+      y="251"
+      font-family="sans-serif"
+      font-size="18"
+      font-weight="600"
+      fill="#E2E8F0">
+
+  secure &amp; scalable systems.
+
+</text>
+
+
+<text x="65"
+      y="280"
+      font-family="sans-serif"
+      font-size="12"
+      fill="#64748B">
+
+  Focused on turning ideas into reliable software,
+
+</text>
+
+
+<text x="65"
+      y="300"
+      font-family="sans-serif"
+      font-size="12"
+      fill="#64748B">
+
+  cloud infrastructure and intelligent workflows.
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- ENGINEERING PRINCIPLES -->
+<!-- ======================================================= -->
+
+<text x="65"
+      y="345"
+      font-family="monospace"
+      font-size="10"
+      letter-spacing="2"
+      fill="#64748B">
+
+  ENGINEERING_PRINCIPLES
+
+</text>
+
+
+<rect x="65"
+      y="362"
+      width="105"
+      height="34"
+      rx="8"
+      fill="#22D3EE"
+      fill-opacity=".05"
+      stroke="#22D3EE"
+      stroke-opacity=".18"/>
+
+<text x="117"
+      y="384"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="10"
+      fill="#67E8F9">
+
+  SECURE
+
+</text>
+
+
+<rect x="181"
+      y="362"
+      width="105"
+      height="34"
+      rx="8"
+      fill="#7C3AED"
+      fill-opacity=".05"
+      stroke="#7C3AED"
+      stroke-opacity=".18"/>
+
+<text x="233"
+      y="384"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="10"
+      fill="#C4B5FD">
+
+  PRACTICAL
+
+</text>
+
+
+<rect x="297"
+      y="362"
+      width="105"
+      height="34"
+      rx="8"
+      fill="#10B981"
+      fill-opacity=".05"
+      stroke="#10B981"
+      stroke-opacity=".18"/>
+
+<text x="349"
+      y="384"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="10"
+      fill="#6EE7B7">
+
+  SCALABLE
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- LEFT SYSTEM INFO -->
+<!-- ======================================================= -->
+
+<text x="65"
+      y="430"
+      font-family="monospace"
+      font-size="10"
+      fill="#64748B">
+
+  LOCATION
+
+</text>
+
+<text x="170"
+      y="430"
+      font-family="monospace"
+      font-size="11"
+      fill="#CBD5E1">
+
+  Bhubaneswar, Odisha, India
+
+</text>
+
+
+<text x="65"
+      y="457"
+      font-family="monospace"
+      font-size="10"
+      fill="#64748B">
+
+  EMAIL
+
+</text>
+
+<text x="170"
+      y="457"
+      font-family="monospace"
+      font-size="10"
+      fill="#CBD5E1">
+
+  tikikrishnam@gmail.com
+
+</text>
+
+
+<text x="65"
+      y="484"
+      font-family="monospace"
+      font-size="10"
+      fill="#64748B">
+
+  GITHUB
+
+</text>
+
+<text x="170"
+      y="484"
+      font-family="monospace"
+      font-size="10"
+      fill="#CBD5E1">
+
+  tikikrishna-mahanta
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- LEFT DIGITAL FOOTER -->
+<!-- ======================================================= -->
+
+<line x1="65"
+      y1="520"
+      x2="420"
+      y2="520"
+      stroke="#FFFFFF"
+      stroke-opacity=".06"/>
+
+
+<text x="65"
+      y="548"
+      font-family="monospace"
+      font-size="9"
+      fill="#334155">
+
+  01001011 01011001 01010011
+
+</text>
+
+
+<text x="300"
+      y="548"
+      font-family="monospace"
+      font-size="9"
+      fill="#475569">
+
+  SYSTEM_ID: TKM-01
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- RIGHT TERMINAL -->
+<!-- ======================================================= -->
+
+<rect x="455"
+      y="65"
+      width="665"
+      height="500"
+      rx="15"
+      fill="#0B1220"
+      fill-opacity=".82"
+      stroke="#FFFFFF"
+      stroke-opacity=".09"/>
+
+
+<!-- terminal header -->
+
+<rect x="455"
+      y="65"
+      width="665"
+      height="46"
+      rx="15"
+      fill="#FFFFFF"
+      fill-opacity=".025"/>
+
+
+<circle cx="482"
+        cy="88"
+        r="5"
+        fill="#EF4444"
+        opacity=".65"/>
+
+<circle cx="500"
+        cy="88"
+        r="5"
+        fill="#F59E0B"
+        opacity=".65"/>
+
+<circle cx="518"
+        cy="88"
+        r="5"
+        fill="#22C55E"
+        opacity=".65"/>
+
+
+<text x="545"
+      y="93"
+      font-family="monospace"
+      font-size="10"
+      fill="#64748B">
+
+  terminal / profile.sh
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- COMMAND -->
+<!-- ======================================================= -->
+
+<text x="480"
+      y="145"
+      font-family="monospace"
+      font-size="12"
+      fill="#22D3EE">
+
+  tikikrishna@system:~$
+
+</text>
+
+
+<text x="650"
+      y="145"
+      font-family="monospace"
+      font-size="12"
+      fill="#E2E8F0">
+
+  ./initialize
+
+</text>
+
+
+<!-- animated cursor -->
+
+<rect x="735"
+      y="132"
+      width="7"
+      height="17"
+      fill="#22D3EE">
+
+  <animate attributeName="opacity"
+           values="1;0;1"
+           dur="1s"
+           repeatCount="indefinite"/>
+
+</rect>
+
+
+<!-- ======================================================= -->
+<!-- TERMINAL INTRO -->
+<!-- ======================================================= -->
+
+<text x="480"
+      y="184"
+      font-family="monospace"
+      font-size="11"
+      fill="#64748B">
+
+  SYSTEM
+
+</text>
+
+
+<text x="650"
+      y="184"
+      font-family="monospace"
+      font-size="13"
+      fill="#F8FAFC">
+
+  Tikikrishna Mahanta
+
+</text>
+
+
+<text x="480"
+      y="214"
+      font-family="monospace"
+      font-size="11"
+      fill="#64748B">
+
+  ROLE
+
+</text>
+
+
+<text x="650"
+      y="214"
+      font-family="monospace"
+      font-size="13"
+      fill="#22D3EE">
+
+  Python Developer
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- DIVIDER -->
+<!-- ======================================================= -->
+
+<line x1="480"
+      y1="240"
+      x2="1090"
+      y2="240"
+      stroke="#FFFFFF"
+      stroke-opacity=".06"/>
+
+
+<!-- ======================================================= -->
+<!-- TECHNICAL MATRIX -->
+<!-- ======================================================= -->
+
+<text x="480"
+      y="270"
+      font-family="monospace"
+      font-size="10"
+      letter-spacing="2"
+      fill="#64748B">
+
+  TECHNOLOGY_MATRIX
+
+</text>
+
+
+<!-- Python -->
+
+<rect x="480"
+      y="287"
+      width="130"
+      height="38"
+      rx="8"
+      fill="#22D3EE"
+      fill-opacity=".045"
+      stroke="#22D3EE"
+      stroke-opacity=".18"/>
+
+<text x="495"
+      y="311"
+      font-family="monospace"
+      font-size="11"
+      fill="#67E8F9">
+
+  Python
+
+</text>
+
+<text x="570"
+      y="311"
+      font-family="monospace"
+      font-size="9"
+      fill="#475569">
+
+  DEV
+
+</text>
+
+
+<!-- SQL -->
+
+<rect x="625"
+      y="287"
+      width="130"
+      height="38"
+      rx="8"
+      fill="#7C3AED"
+      fill-opacity=".045"
+      stroke="#7C3AED"
+      stroke-opacity=".18"/>
+
+<text x="640"
+      y="311"
+      font-family="monospace"
+      font-size="11"
+      fill="#C4B5FD">
+
+  SQL
+
+</text>
+
+<text x="705"
+      y="311"
+      font-family="monospace"
+      font-size="9"
+      fill="#475569">
+
+  DATA
+
+</text>
+
+
+<!-- AWS -->
+
+<rect x="770"
+      y="287"
+      width="130"
+      height="38"
+      rx="8"
+      fill="#10B981"
+      fill-opacity=".045"
+      stroke="#10B981"
+      stroke-opacity=".18"/>
+
+<text x="785"
+      y="311"
+      font-family="monospace"
+      font-size="11"
+      fill="#6EE7B7">
+
+  AWS
+
+</text>
+
+<text x="850"
+      y="311"
+      font-family="monospace"
+      font-size="9"
+      fill="#475569">
+
+  CLOUD
+
+</text>
+
+
+<!-- Security -->
+
+<rect x="915"
+      y="287"
+      width="175"
+      height="38"
+      rx="8"
+      fill="#22D3EE"
+      fill-opacity=".045"
+      stroke="#22D3EE"
+      stroke-opacity=".18"/>
+
+<text x="930"
+      y="311"
+      font-family="monospace"
+      font-size="11"
+      fill="#67E8F9">
+
+  CYBERSECURITY
+
+</text>
+
+
+<!-- second row -->
+
+<rect x="480"
+      y="338"
+      width="175"
+      height="38"
+      rx="8"
+      fill="#FFFFFF"
+      fill-opacity=".025"
+      stroke="#FFFFFF"
+      stroke-opacity=".08"/>
+
+<text x="495"
+      y="362"
+      font-family="monospace"
+      font-size="11"
+      fill="#CBD5E1">
+
+  REST APIs
+
+</text>
+
+
+<rect x="670"
+      y="338"
+      width="175"
+      height="38"
+      rx="8"
+      fill="#FFFFFF"
+      fill-opacity=".025"
+      stroke="#FFFFFF"
+      stroke-opacity=".08"/>
+
+<text x="685"
+      y="362"
+      font-family="monospace"
+      font-size="11"
+      fill="#CBD5E1">
+
+  Git / GitHub
+
+</text>
+
+
+<rect x="860"
+      y="338"
+      width="230"
+      height="38"
+      rx="8"
+      fill="#FFFFFF"
+      fill-opacity=".025"
+      stroke="#FFFFFF"
+      stroke-opacity=".08"/>
+
+<text x="875"
+      y="362"
+      font-family="monospace"
+      font-size="11"
+      fill="#CBD5E1">
+
+  Pandas / NumPy / ML
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- LIVE SYSTEM -->
+<!-- ======================================================= -->
+
+<text x="480"
+      y="415"
+      font-family="monospace"
+      font-size="10"
+      letter-spacing="2"
+      fill="#64748B">
+
+  LIVE_SYSTEM
+
+</text>
+
+
+<rect x="480"
+      y="432"
+      width="610"
+      height="70"
+      rx="10"
+      fill="#FFFFFF"
+      fill-opacity=".02"
+      stroke="#FFFFFF"
+      stroke-opacity=".06"/>
+
+
+<circle cx="505"
+        cy="457"
+        r="4"
+        fill="#10B981"
+        filter="url(#glow)">
+
+  <animate attributeName="opacity"
+           values=".2;1;.2"
+           dur="1.8s"
+           repeatCount="indefinite"/>
+
+</circle>
+
+
+<text x="520"
+      y="461"
+      font-family="monospace"
+      font-size="10"
+      fill="#10B981">
+
+  ACTIVE
+
+</text>
+
+
+<text x="580"
+      y="461"
+      font-family="monospace"
+      font-size="10"
+      fill="#64748B">
+
+  →
+
+</text>
+
+
+<text x="600"
+      y="461"
+      font-family="monospace"
+      font-size="11"
+      fill="#E2E8F0">
+
+  BUILDING SECURE SYSTEMS
+
+</text>
+
+
+<text x="505"
+      y="486"
+      font-family="monospace"
+      font-size="10"
+      fill="#475569">
+
+  cloud / security / automation / software
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- TERMINAL FOOTER -->
+<!-- ======================================================= -->
+
+<text x="480"
+      y="530"
+      font-family="monospace"
+      font-size="10"
+      fill="#64748B">
+
+  $ connect --github
+
+</text>
+
+
+<text x="650"
+      y="530"
+      font-family="monospace"
+      font-size="10"
+      fill="#94A3B8">
+
+  github.com/tikikrishna-mahanta
+
+</text>
+
+
+<!-- ======================================================= -->
+<!-- SCANLINE -->
+<!-- ======================================================= -->
+
+<rect x="455"
+      y="112"
+      width="665"
+      height="1"
+      fill="#22D3EE"
+      opacity=".16">
+
+  <animate attributeName="y"
+           values="112;562;112"
+           dur="9s"
+           repeatCount="indefinite"/>
+
+</rect>
+
+
+<!-- ======================================================= -->
+<!-- DIGITAL PARTICLES -->
+<!-- ======================================================= -->
+
+<g fill="#22D3EE">
+
+  <circle cx="430" cy="120" r="1.2">
+
+    <animate attributeName="opacity"
+             values=".1;.8;.1"
+             dur="4s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="1135" cy="170" r="1.2">
+
+    <animate attributeName="opacity"
+             values=".1;.7;.1"
+             dur="5s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle cx="440" cy="490" r="1">
+
+    <animate attributeName="opacity"
+             values=".1;.7;.1"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+</g>
+
+</g>
+
+</svg>
