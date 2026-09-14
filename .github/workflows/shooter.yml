@@ -1,0 +1,24 @@
+name: Generate GitHub Space Shooter
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # This makes it run by itself every night!
+  workflow_dispatch:      # This adds a manual test button.
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Make Game Animation
+        uses: czl9707/gh-space-shooter@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Save to a Safe Secret Branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .        
+          branch: assets   # This keeps the image safely away from your main files!
