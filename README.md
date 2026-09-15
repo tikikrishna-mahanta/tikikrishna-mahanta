@@ -1,3 +1,11 @@
 <p align="center">
-  <img src="./dark.svg" alt="Tikikrishna Mahanta" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img src="./dark.svg" alt="Tikikrishna Mahanta" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tikikrishna-mahanta/boring-code/blob/main/gh-space-shooter.gif" alt="GitHub Space Shooter" width="100%">
 </p>
